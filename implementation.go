@@ -64,7 +64,7 @@ func convert(input string) (string, error) {
 		} else if character == space {
 			continue
 		} else {
-			return "", errors.New("Could not convert.\n")
+			return "", errors.New("could not convert")
 		}
 
 	}
