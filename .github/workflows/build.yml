@@ -8,7 +8,7 @@ on:
 
 jobs:
 
-  audit:
+  build_and_test:
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@v2
